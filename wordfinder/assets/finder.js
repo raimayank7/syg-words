@@ -1,4 +1,4 @@
-/* wordfinder.shareyourgroup.com: word finder, anagram solver, pattern finder and word checker. The word list (SCOWL, sizes 10 to 70)
+/* words.shareyourgroup.com/wordfinder: word finder, anagram solver, pattern finder and word checker. The word list (SCOWL, sizes 10 to 70)
    is fetched from /data/ on the first search and everything runs in the browser. Also filters the static list pages. */
 (function () {
   'use strict';
