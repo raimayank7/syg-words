@@ -1,0 +1,18 @@
+/* words: word pages and the word finder */
+[lang=hi]{font-family:'Noto Sans Devanagari','Nirmala UI','Mangal',var(--font);line-height:1.8}
+.wordp .lead{font-size:1.08rem}
+.senses{padding-left:1.4em}.senses>li{margin:.9em 0}
+.senses .df{margin:0;font-weight:600}
+.senses .ex,.cw .ex,.res .ex{margin:.25em 0;color:var(--soft);border-left:3px solid var(--line);padding-left:10px}
+.senses .rel{margin:.3em 0;font-size:.95rem}
+.phr{padding-left:1.2em}.phr li{margin:.4em 0}.phr small{color:var(--soft)}
+.cw{list-style:none;padding:0;display:grid;gap:10px;margin:16px 0}
+.cw li{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px}.cw h3{margin:0 0 .2em}.cw p{margin:.2em 0}
+.res{background:var(--surface);border:2px solid var(--teal);border-radius:var(--r);padding:14px 16px;margin:14px 0}
+.res h2{margin:0 0 .2em}.res h3{margin:.8em 0 .2em;font-size:1rem;color:var(--soft);text-transform:uppercase;letter-spacing:.04em}
+.res ol{padding-left:1.3em;margin:.2em 0}.res li{margin:.5em 0}.res .syn button,.sugg button{min-height:40px;margin:2px 4px 2px 0;padding:4px 12px;border-radius:99px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:inherit;cursor:pointer}
+.wotd{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 16px;margin:16px 0}.wotd h2{margin:.1em 0;font-size:1rem;color:var(--soft)}
+.wotd .big{font-family:var(--font-head);text-decoration:none;letter-spacing:0}.wotd p{margin:.2em 0}
+.chips a,.prose .btn.sm,.wordp .btn.sm{min-height:40px}.chips a{display:inline-flex;align-items:center}
+.az a{min-width:40px;min-height:40px}
+@media print{.acts,.finder,.chips{display:none!important}}
