@@ -1,0 +1,19 @@
+/* Word Finder: search forms, result groups, word lists */
+.wf-row{display:flex;gap:8px;flex-wrap:wrap}
+.wf-row input{flex:1 1 180px;min-width:0;font:600 1.15rem var(--mono);letter-spacing:.08em;text-transform:lowercase}
+.wf-chk{display:flex!important;gap:8px;align-items:center;min-height:40px;font-weight:400!important;color:var(--soft);margin-top:8px}
+.wf-chk input{width:20px;height:20px}
+.wf-more{margin-top:10px;background:var(--surface2)}.wf-more .fields{padding-bottom:14px}
+.wf-out{margin:14px 0}
+.wf-sum{margin:0 0 4px}
+.wf-g h3,.wl-sec h2,.wl-sec h3{margin:1em 0 .3em;display:flex;gap:8px;align-items:baseline}
+.wf-g h3 small,.wl-sec small{font:400 .84rem var(--font);color:var(--soft)}
+.wf-words,.wl{display:flex;flex-wrap:wrap;gap:6px;margin:0;padding:0;list-style:none}
+.wf-words span,.wl span{font:500 1rem var(--mono);padding:4px 9px;border-radius:8px;background:var(--surface);border:1px solid var(--line)}
+.t0{font-weight:700!important}.t2{font-style:italic;color:var(--soft)}
+.wl.two{display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr));gap:6px 18px}
+.wl.two li{margin:0;padding:6px 0;border-bottom:1px solid var(--line)}
+.wl.two li span{margin-right:8px}
+.ok{color:var(--ok)}.no{color:var(--bad)}
+.az.big a{min-width:44px;min-height:44px;font-size:1.1rem}
+.az a{min-width:40px;min-height:40px}
