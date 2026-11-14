@@ -1,0 +1,19 @@
+[hidden]{display:none!important}
+.gl{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr))}
+.gl li{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:8px}
+.gl li b{font-size:1.05rem;word-break:break-word}
+.gl .ab{display:flex;gap:8px}
+.gl .ab button{min-height:40px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:600 .85rem var(--font);cursor:pointer;padding:4px 12px}
+.gen{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:14px 0}
+.gen .fields{display:flex;gap:10px;flex-wrap:wrap;align-items:end}
+.gen select{min-height:48px;font-size:1rem;padding:6px 10px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--ink)}
+.gen .big{font-size:1.6rem;font-weight:700;margin:14px 0 8px;min-height:2.2rem;word-break:break-word}
+.tc{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr))}
+.tc a{display:block;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);min-height:60px}
+.tc a b{display:block}.tc a small{color:var(--soft)}
+@media print{.gen,.ab,.finder{display:none!important}}
+.st{width:100%;border-collapse:collapse}.st th,.st td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}.st td.n,.st th.n{text-align:right;white-space:nowrap}
+.res{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:14px;margin:12px 0}
+.res h3{margin:0 0 6px}.bars{display:grid;gap:4px;margin-top:8px}.bar{display:flex;gap:8px;align-items:center;font-size:.85rem}.bar i{display:block;height:10px;background:var(--accent);border-radius:5px}.bar span{min-width:96px}
+@media(max-width:620px){.st th:nth-child(n+5),.st td:nth-child(n+5){display:none}}
+.res,.res *{overflow-wrap:anywhere;min-width:0}.bar span{min-width:0;flex:0 0 40%}.bar{flex-wrap:nowrap}.bar i{min-width:2px;flex:0 1 auto;max-width:40%}

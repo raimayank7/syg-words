@@ -1,0 +1,16 @@
+[hidden]{display:none!important}
+.tool{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:16px;margin:14px 0}
+.tool input[type=text]{width:100%;min-height:52px;font-size:1.15rem;padding:8px 12px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);box-sizing:border-box}
+.sl{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,300px),1fr))}
+.sl li{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);padding:12px 14px;display:flex;flex-direction:column;gap:6px;min-width:0}
+.sl small{color:var(--soft)}.sl small a{color:inherit}
+.sl output{font-size:1.25rem;line-height:1.5;overflow-wrap:anywhere;display:block;min-height:1.6em}
+.sl .ab{display:flex;gap:8px}
+.sl .ab button{min-height:40px;border-radius:10px;border:1px solid var(--line);background:var(--surface2);color:var(--ink);font:600 .85rem var(--font);cursor:pointer;padding:4px 12px}
+.cg{display:grid;grid-template-columns:repeat(auto-fill,minmax(54px,1fr));gap:6px;list-style:none;padding:0;margin:12px 0}
+.cg li{border:1px solid var(--line);border-radius:8px;padding:6px 2px;text-align:center;background:var(--surface);font-size:1.1rem}.cg li small{display:block;color:var(--soft);font-size:.7rem}
+.tc{list-style:none;padding:0;margin:14px 0;display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,230px),1fr))}
+.tc a{display:block;padding:12px 14px;background:var(--surface);border:1px solid var(--line);border-radius:var(--r);text-decoration:none;color:var(--ink);min-height:60px}
+.tc a b{display:block}.tc a small{color:var(--soft)}
+.st{width:100%;border-collapse:collapse}.st th,.st td{padding:8px 10px;border-bottom:1px solid var(--line);text-align:left}
+@media print{.tool,.ab{display:none!important}}
