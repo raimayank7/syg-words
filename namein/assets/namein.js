@@ -65,7 +65,7 @@
     if (!name || li.querySelector('.out').classList.contains('empty')) { SYG.toast('Type a name first'); return; }
     var a = b.getAttribute('data-act');
     if (a === 'copy') SYG.copy(t, 'Copied');
-    else if (a === 'wa') window.open('https://wa.me/?text=' + encodeURIComponent('My name in ' + m.name + ': ' + t + '\nhttp://words.shareyourgroup.com/namein/'), '_blank', 'noopener');
+    else if (a === 'wa') window.open('https://wa.me/?text=' + encodeURIComponent('My name in ' + m.name + ': ' + t + '\nhttps://words.shareyourgroup.com/namein/'), '_blank', 'noopener');
     else picture(m, t, name);
   });
   var q = new URLSearchParams(location.search).get('n');
